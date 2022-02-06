@@ -8,9 +8,9 @@ namespace BilgeAdam.Numerator.KadirOsmanUst
 {
     internal class ClassHelloHelper
     {
-        public static void HelpForHello()
+        public static void HelpForHello(string yazi)
         {
-            Console.WriteLine("Hello Github !");
+            Console.WriteLine($"{yazi}");
         }
         public static string HelpForReadLine()
         {
