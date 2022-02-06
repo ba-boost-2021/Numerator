@@ -21,13 +21,5 @@ namespace BilgeAdam.Numerator.Metehan
             }
             Console.WriteLine("+");
         }
-
-        public static void PswCreator()
-        {
-            var passLenght = int.Parse(Console.ReadLine());
-            Console.Write("Sifre Uzunlugu: ");
-            var guid = new Guid();
-            Console.WriteLine($"sifre ({guid.ToString().Remove(0, passLenght)})");
-        }
     }
 }
