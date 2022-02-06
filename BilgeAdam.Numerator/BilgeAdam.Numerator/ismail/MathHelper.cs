@@ -9,5 +9,12 @@ namespace BilgeAdam.Numerator.ismail
     internal class MathHelper
     {
         public static double Square(double number) { return Math.Sqrt(number); }
+
+        public static void Total(int number, int number2)
+        {
+            var result = number + number2;
+            Console.WriteLine($"toplam {result}");
+        }
+
     }
 }
