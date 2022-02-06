@@ -12,5 +12,10 @@ namespace BilgeAdam.Numerator.Can
         {
             return true;
         }
+
+        public static bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
     }
 }
