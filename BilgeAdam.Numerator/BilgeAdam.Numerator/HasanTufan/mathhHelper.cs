@@ -1,21 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BilgeAdam.Numerator.HasanTufan
+﻿namespace BilgeAdam.Numerator.HasanTufan
 {
-    class mathhHelper
+    class MathHelper
     {
-        internal class mathhHelper
+        private bool IsPrime(int number)
         {
-
-            private  bool IsPrime(int number)
-            {
-                return false;
-            }
-
+            return false;
         }
     }
 }
