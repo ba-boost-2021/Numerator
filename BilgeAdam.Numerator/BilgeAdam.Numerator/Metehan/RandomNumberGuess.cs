@@ -35,5 +35,19 @@ namespace BilgeAdam.Numerator.Metehan
             }
             Console.WriteLine("+");
         }
+
+        public static void HardRandomGuess()
+        {
+            var Guess = int.Parse(Console.ReadLine());
+            Console.Write("100'e kadar sayi tahmini: ");
+            var rnd = new Random();
+            Console.WriteLine($"sayi ({rnd})");
+            var a = rnd.Next(999999);
+            while (Guess != a)
+            {
+                Console.WriteLine("-");
+            }
+            Console.WriteLine("+");
+        }
     }
 }
