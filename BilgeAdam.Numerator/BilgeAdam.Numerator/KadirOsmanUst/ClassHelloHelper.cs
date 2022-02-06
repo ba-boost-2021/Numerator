@@ -12,5 +12,9 @@ namespace BilgeAdam.Numerator.KadirOsmanUst
         {
             Console.WriteLine("Hello Github !");
         }
+        public static string HelpForReadLine()
+        {
+            return Console.ReadLine();
+        }
     }
 }
