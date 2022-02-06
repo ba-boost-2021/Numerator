@@ -17,5 +17,10 @@ namespace BilgeAdam.Numerator.Can
         {
             return number % 2 == 0;
         }
+
+        public static bool IsOdd(int number)
+        {
+            return number % 2 == 1;
+        }
     }
 }
