@@ -10,7 +10,7 @@ namespace BilgeAdam.Numerator.KadirOsmanUst
     {
         public static void HelpForHello()
         {
-            Console.WriteLine("Hello Githun !");
+            Console.WriteLine("Hello Github !");
         }
     }
 }
